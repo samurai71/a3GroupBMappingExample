@@ -10,11 +10,12 @@
 			);
 
 		marker = new google.maps.Marker({
-			postion : { lat: 42.983233, lng: -81.250688 },
-			map:map,
-			title: 'Hello World'
+			position : { lat: 42.983233, lng: -81.250688 },
+			map: map,
+			title: 'Hello World!'
 		});
 	}
+
 	initMap();
 
 })();
